@@ -1,2 +1,7 @@
 Project-Euler
 =============
+
+compile a project using "g++ -O3 -o euler -std=c++11 -Wall -Wextra problem001.cpp"
+
+edit the makefile to compile projects that require the bigInteger library.
+
