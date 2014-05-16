@@ -1,7 +1,12 @@
+Kevin Yeap.
+
 Project-Euler
 =============
 
-compile a project using "g++ -O3 -o euler -std=c++11 -Wall -Wextra problem001.cpp"
+compile a project using "g++ -std=c++11 -Wall -Wextra problem001.cpp"
+default program name a.out
 
-edit the makefile to compile projects that require the bigInteger library.
+If the BigInteger library needed, edit the make for the specific file
+and compile using the makefile.
 
+All code is my own.
