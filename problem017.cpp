@@ -15,7 +15,7 @@ NOTE: Do not count spaces or hyphens. For example, 342 (three hundred and forty-
 /*========== program output ==========
         == Project Euler: Problem 17 ==
 
-answer: 
+answer: 21124
 =========================*/
 
 #include <iostream>

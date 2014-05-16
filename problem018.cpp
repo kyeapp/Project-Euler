@@ -44,7 +44,7 @@ every node once. and its still linear time to check which path is biggest.
 /*========== program output ==========
         == Project Euler: Problem 18 ==
 
-answer: 
+answer: 1074
 =========================*/
 
 #include <iostream>
