@@ -52,8 +52,8 @@ testsuite-cleanfiles = \
 # your own Makefile.
 
 # Components of the program.
-program = problem016
-program-objects = problem016.o
+program = a.out
+program-objects = problem020.o
 
 # Conservatively assume all the program source files depend on all the library
 # headers.  You can change this if it is not the case.
