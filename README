@@ -6,7 +6,14 @@ Project-Euler
 All coding done using C++11.
 
 compile a project using "g++ -std=c++11 -Wall -Wextra problem001.cpp"
-default program name a.out
+default program name z
+
+I used a free BigInteger library when computing numbers that were bigger than ints and longs could handle.
 
 If the BigInteger library needed, edit the makefile on lines 56 for the specific file
 and compile using the makefile.
+
+The goal for each problem was to design an program that could compute the answers in less than a second. 
+I prioritized speed and modularity when writing and designing the code. I also made the input size
+scalable so I could test on small data sets to confirm the correctness of the program before have it
+run the large data set.
