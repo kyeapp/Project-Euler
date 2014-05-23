@@ -44,6 +44,7 @@ int main() {
   return 0;
 }
 
+//returns the sum of diagonals of a spiral of numbers given size.
 int spiral_diagonal_sum(int side_length) {
   int total = 1; //starts at 1 for the center.
   int limit = side_length * side_length;
