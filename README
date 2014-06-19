@@ -17,3 +17,12 @@ The goal for each problem was to design an program that could compute the answer
 I prioritized speed and modularity when writing and designing the code. I also made the input size
 scalable so I could test on small data sets to confirm the correctness of the program before have it
 run the large data set.
+
+
+Due to the discovery of a serious security issue a decision was made on Sunday 15 June 2014 to 
+take down the website. The full extent of the issue is still being investigated but in an attempt 
+to be as honest as possible to our members we must make you aware that we have reason to suspect 
+that all or parts of the database may have compromised. Passwords at Project Euler are strongly 
+encrypted using a one-way hash, but if you use the same password at other websites then it is strongly 
+advised that you change it. We are extremely sorry for this inconvenience. At this time we can provide 
+no more information and there is no indication when Project Euler will return. 6/15/2014
