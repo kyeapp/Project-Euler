@@ -18,7 +18,7 @@ I prioritized speed and modularity when writing and designing the code. I also m
 scalable so I could test on small data sets to confirm the correctness of the program before have it
 run the large data set.
 
-
+6/15/2014---
 Due to the discovery of a serious security issue a decision was made on Sunday 15 
 June 2014 to take down the website. The full extent of the issue is still being 
 investigated but in an attempt to be as honest as possible to our members we must 
@@ -27,4 +27,8 @@ have compromised. Passwords at Project Euler are strongly encrypted using a one-
 hash, but if you use the same password at other websites then it is strongly 
 advised that you change it. We are extremely sorry for this inconvenience. At this 
 time we can provide no more information and there is no indication when Project Euler 
-will return. 6/15/2014
+will return. 
+
+6/22/2014---
+project euler is mostly functional again. projects continue!
+
