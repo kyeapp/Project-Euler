@@ -24,14 +24,15 @@ answer: 104743
 =========================*/
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
-long find_nth_prime(long num); //returns the nth prime
-long check_prime(long number); //return number if prime
+int find_nth_prime(int num); //returns the nth prime
+int check_prime(int number); //return number if prime
 
 int main() {
-  long target_position = 10001;
-  long result = find_nth_prime(target_position);
+  int target_position = 10001;
+  int result = find_nth_prime(target_position);
   
   cout << "\t== Project Euler: Problem 7 ==" << endl << endl; 
   cout << "answer: " << result << endl << endl; 
@@ -40,9 +41,9 @@ int main() {
 }
 
 //takes a position and returns the prime at the position.
-long find_nth_prime(long target_position) {
+int find_nth_prime(int target_position) {
   int position = 1; //position count starts at one to account for number two, the first prime which happens to be even.
-  long i;
+  int i;
 
   for (i = 3; position < target_position; i += 2) {
     if (check_prime(i) != 0) { position++; }
@@ -51,12 +52,13 @@ long find_nth_prime(long target_position) {
   return i-2; //-2 because after the loop, i gets incremented by 2 again.
 }
 
-//returns num if it is prime. left out even number checks for speed.
-long check_prime(long num) {
-  long half = num / 2;
+//returns num if it is prime.
+int check_prime(int num) {
+  int limit = sqrt(num);
   
-  for (long i = 3; i < half; i += 2) {
+  for (int i = 3; i <= limit; i += 2) {
     if ((num%i) == 0) { return 0; }
   }
+  
   return num;
 }
