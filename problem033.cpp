@@ -23,7 +23,7 @@ value of the denominator.
 first try the following to see if it will give us a good result. 
 
 see if the original fraction and the digits of the numerator and denominator multiplied 
-together gives us the same result.
+together gives us the same result. add one more check that checks that only 3 digits are used.
 
 input size is relatively small so its ok to use two loops for O(n^2) time.
 
