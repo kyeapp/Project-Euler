@@ -5,8 +5,7 @@ Project-Euler
 
 All coding done using C++11.
 
-compile a project using "g++ -std=c++11 -Wall -Wextra problem001.cpp"
-default program name z
+compile a project using "g++ -std=c++11 -O3 -Wall -Wextra problem001.cpp"
 
 I used a free BigInteger library when computing numbers that were bigger than ints and longs could handle.
 

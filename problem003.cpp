@@ -21,6 +21,7 @@ answer: 6857
 =========================*/
 
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 long lp_factor(long num); //largest_prime_factor
@@ -39,9 +40,9 @@ int main() {
 long lp_factor(long num) {
   if ((num%2) == 0) { return lp_factor(num/2); }
   else {
-    long half = num / 2;
+    long limit = sqrt(num);
     
-    for (long i = 3; i < half; i += 2) {
+    for (long i = 3; i < limit; i += 2) {
       if ((num%i) == 0) { return lp_factor(num/i); }
     }
   }
